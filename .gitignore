@@ -1,0 +1,41 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (Backend)
+back/__pycache__/
+back/*.py[cod]
+back/*$py.class
+back/venv/
+back/.env
+back/.pytest_cache/
+back/coverage/
+back/htmlcov/
+back/*.spec
+
+# Node.js (Frontend)
+front/node_modules/
+front/dist/
+front/build/
+front/.env
+front/.env.local
+front/.env.development.local
+front/.env.test.local
+front/.env.production.local
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+front/pnpm-debug.log*
+
+# Root
+.env
+venv/
+__pycache__/
+node_modules/
